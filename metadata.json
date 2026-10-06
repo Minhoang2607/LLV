@@ -1,0 +1,6 @@
+{
+  "name": "Lịch Ban Giám Đốc",
+  "description": "Hệ thống lịch công tác Ban Giám đốc Công an thành phố: Lịch tuần buổi, thống kê LLV, cảnh báo trùng lịch, quản lý Ban Giám đốc và xuất văn bản hành chính.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

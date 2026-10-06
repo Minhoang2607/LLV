@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- 1. Golden Outer Glow / Shield Halo -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 64,12 C 84,12 102,16 102,16 L 102,68 C 102,92 84,108 64,116 C 44,108 26,92 26,68 L 26,16 C 26,16 44,12 64,12 Z" />
+
+    <!-- 2. Main Red Shield Base -->
+    <path
+        android:fillColor="#B91C1C"
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="1.5"
+        android:pathData="M 64,16 C 82,16 98,19.5 98,19.5 L 98,66 C 98,88 82,103 64,111 C 46,103 30,88 30,66 L 30,19.5 C 30,19.5 46,16 64,16 Z" />
+
+    <!-- 3. Inner Crimson Accent Border -->
+    <path
+        android:fillColor="#991B1B"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1"
+        android:pathData="M 64,20 C 80,20 94,23 94,23 L 94,64 C 94,84 80,98 64,106 C 48,98 34,84 34,64 L 34,23 C 34,23 48,20 64,20 Z" />
+
+    <!-- 4. Left Golden Rice Sheaf / Laurel Garland -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 38,62 C 37,56 38,50 40,44 C 40,47 41,52 42,55 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M 36,72 C 36,66 38,61 41,57 C 40,61 41,66 42,70 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 40,82 C 41,76 43,71 47,67 C 45,71 45,77 46,81 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 46,91 C 48,86 51,81 55,78 C 53,82 52,87 52,91 Z" />
+
+    <!-- 5. Right Golden Rice Sheaf / Laurel Garland -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 90,62 C 91,56 90,50 88,44 C 88,47 87,52 86,55 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M 92,72 C 92,66 90,61 87,57 C 88,61 87,66 86,70 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 88,82 C 87,76 85,71 81,67 C 83,71 83,77 82,81 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M 82,91 C 80,86 77,81 73,78 C 75,82 76,87 76,91 Z" />
+
+    <!-- 6. THE SWORD OF THE POLICE (Thanh kiếm CAND) -->
+    <!-- Blade (Silver & Gold) -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="0.5"
+        android:pathData="M 42,42 L 86,86 L 84,88 L 40,44 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M 42,42 L 85,85 L 83,87 L 40,44 Z" />
+    <!-- Sword Tip -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M 40,44 L 42,42 L 38,40 Z" />
+    <!-- Sword Guard / Crossbar (Gold) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:strokeColor="#B45309"
+        android:strokeWidth="0.5"
+        android:pathData="M 81,81 L 89,73 L 91,75 L 83,83 Z" />
+    <!-- Sword Pommel & Grip -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 86,86 L 93,93 L 95,91 L 88,84 Z" />
+    <!-- Sword Pommel Orb (Path circle) -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M 94,92.5 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+
+    <!-- 7. THE QUILL / STYLUS PEN (Cây bút tham mưu trí tuệ) -->
+    <!-- Pen Shaft (Glossy Gold) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:strokeColor="#D97706"
+        android:strokeWidth="0.5"
+        android:pathData="M 86,42 L 44,84 L 41,81 L 83,39 Z" />
+    <!-- Golden Pen Grip Ring -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 47,78 L 49,80 L 46,83 L 44,81 Z" />
+    <!-- Golden Nib (Ngòi bút vàng lá) -->
+    <path
+        android:fillColor="#FDE68A"
+        android:strokeColor="#B45309"
+        android:strokeWidth="0.5"
+        android:pathData="M 44,81 L 46,83 L 39,90 L 37,88 Z" />
+    <!-- Ink slit line in golden nib -->
+    <path
+        android:strokeColor="#78350F"
+        android:strokeWidth="0.6"
+        android:pathData="M 44,81 L 38,89" />
+
+    <!-- 8. THE OPEN BOOK / STRATEGIC DOSSIER (Quyển sách mở) -->
+    <!-- Left Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:pathData="M 64,74 C 56,70 48,71 44,73 L 44,87 C 48,85 56,84 64,88 Z" />
+    <!-- Left Page text lines -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 47,76 H 61 V 77 H 47 Z M 47,79 H 61 V 80 H 47 Z M 47,82 H 58 V 83 H 47 Z" />
+
+    <!-- Right Page -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:pathData="M 64,74 C 72,70 80,71 84,73 L 84,87 C 80,85 72,84 64,88 Z" />
+    <!-- Right Page text lines -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 67,76 H 81 V 77 H 67 Z M 67,79 H 81 V 80 H 67 Z M 67,82 H 78 V 83 H 67 Z" />
+
+    <!-- Spine of the Book -->
+    <path
+        android:strokeColor="#B45309"
+        android:strokeWidth="1.2"
+        android:pathData="M 64,73 L 64,89" />
+
+    <!-- 9. GOLDEN FIVE-POINTED STAR (Ngôi sao vàng CAND) -->
+    <!-- Top point -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 64,38 L 64,25 L 67.5,34.5 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 64,38 L 64,25 L 60.5,34.5 Z" />
+    <!-- Right point -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 64,38 L 76.5,34 L 69,40 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 64,38 L 76.5,34 L 67.5,34.5 Z" />
+    <!-- Down-Right point -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 64,38 L 72,49 L 64,43.5 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 64,38 L 72,49 L 69,40 Z" />
+    <!-- Down-Left point -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 64,38 L 56,49 L 59,40 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 64,38 L 56,49 L 64,43.5 Z" />
+    <!-- Left point -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M 64,38 L 51.5,34 L 60.5,34.5 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 64,38 L 51.5,34 L 59,40 Z" />
+
+    <!-- 10. RED RIBBON WITH "THAM MƯU" LABEL AT BOTTOM -->
+    <path
+        android:fillColor="#B91C1C"
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="1.2"
+        android:pathData="M 40,94 C 52,91 76,91 88,94 L 86,104 C 74,101 54,101 42,104 Z" />
+    <!-- Ribbon ends fold -->
+    <path
+        android:fillColor="#7F1D1D"
+        android:pathData="M 37,96 L 41,94 L 42,103 L 36,105 Z" />
+    <path
+        android:fillColor="#7F1D1D"
+        android:pathData="M 91,96 L 87,94 L 86,103 L 92,105 Z" />
+
+    <!-- Letters "THAM MƯU" in Gold block shapes on Ribbon -->
+    <!-- T -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 46,96.5 H 50 V 97.5 H 48.5 V 101 H 47.5 V 97.5 H 46 Z" />
+    <!-- M (First M for THAM) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 52,96.5 H 53.2 L 54.5,99.2 L 55.8,96.5 H 57 V 101 H 56 V 98.2 L 54.8,100.5 H 54.2 L 53,98.2 V 101 H 52 Z" />
+    <!-- Dot separator -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 63.2,98.2 h 1.6 v 1.6 h -1.6 z" />
+    <!-- M (MƯU) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 71,96.5 H 72.2 L 73.5,99.2 L 74.8,96.5 H 76 V 101 H 75 V 98.2 L 73.8,100.5 H 73.2 L 72,98.2 V 101 H 71 Z" />
+    <!-- U -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M 78,96.5 H 79 V 99.8 C 79,100.5 79.5,101 80.2,101 C 80.9,101 81.4,100.5 81.4,99.8 V 96.5 H 82.4 V 99.8 C 82.4,101.2 81.3,101.8 80.2,101.8 C 79.1,101.8 78,101.2 78,99.8 Z" />
+</vector>
